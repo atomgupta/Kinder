@@ -1,0 +1,9 @@
+.cardfeed{
+    width: 27%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}

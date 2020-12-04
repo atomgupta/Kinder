@@ -1,0 +1,52 @@
+.postCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+.postCard .cardHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+font-size: 12px;
+margin-bottom: 5px;
+}
+.cardHeader .postedBy{
+    width: 29%;
+    text-align: left;
+}
+.cardHeader .eventLocation{
+    text-align: right;
+    width: 69%;
+}
+.postCard .cardText{
+    font-size: 14px;
+    margin:3px 0;
+}
+.postCard .actionButtons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+.actionButtons button{
+    width: 45%;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 3px;
+}
+.postCard .caption{
+    width: 100%;
+    text-align: left;
+    color:plum;
+    font-size: 12;
+
+}

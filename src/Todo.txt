@@ -1,0 +1,28 @@
+V1
+1. User can see cards of kindness.This will be just for the frontend.
+    1.1 Each card should have the following:
+        1.1.1 Image/Text
+        1.1.2 Location/optional(text)
+        1.1.3 Caption/optional(text)
+        1.1.4 support button
+        1.1.5 interested button
+        1.1.6 location(place/coordinates)/users location
+Create static entries for this.
+Then add entries in the database and fetch these entries dynamically.
+
+
+V2
+1. Add location functionality where the location of user will be fetched from their device and 
+    they will see the cards from/around that area by default.
+2. Database will store each kindness as a document with the above mentioned attributes.We can have multiple/different collections for multiple/different services.
+3. Backend routes will return cards based on the location/follower/postId.
+
+
+WHO will use the app->anyone(3+)
+HOW will we use the app->UX/UI(wireframes)
+WHY will they use the app->sense of moral obligation and social connection in a different way.
+Which Database to use ->MongoDb,firebase,mysql(MongoDb)
+
+News feed->following,own posts
+Post->likes,comments,who posted, who liked,who commented
+
