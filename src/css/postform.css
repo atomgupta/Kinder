@@ -1,0 +1,6 @@
+.uploadpostcontainer{
+    border: 1px solid black;
+}
+.uploadpostcontainer input{
+    display:block;
+}
